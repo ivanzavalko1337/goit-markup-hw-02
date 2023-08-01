@@ -20,5 +20,29 @@ body {
 }
 .logo {
     font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em
+    text-transform: uppercase;
+
+}
+:root {
+    --main-color: #4d5ae5; 
+}
+.logo {
+    color: var(--main-color);
+    
+}
+.link {
+    text-decoration: none;
+    
+}
+
+:root {
+    --main-color: #2e2f42;
+   
+}
+
+.custom-span {
+    color: var(--main-color);
     
 }
