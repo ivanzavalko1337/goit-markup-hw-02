@@ -103,11 +103,73 @@ body {
     --link-focus-color: #404bbf;
 }
 
-.link:hover {
-    color: var(--link-hover-color);
+.link:hover,
+.link:focus {
+    color: #404bbf;
+  
+}
+:root {
+    --section-background-color: #2e2f42;
+   
 }
 
-.link:focus {
-    color: var(--link-focus-color);
+.filters {
+    background-color: var(--section-background-color);
+ 
+}
+
+.custom-title {
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #ffffff;
     
+}
+.filters-btn {
+    background-color: #4D5AE5;
+    
+    font-family: "Roboto", sans-serif;
+    
+    font-weight: 500;
+   
+    font-size: 16px;
+    
+    line-height: 1.5;
+    
+    letter-spacing: 0.04em;
+   
+    color: #ffffff;
+    cursor: pointer;
+   
+}
+.filters-btn:hover,
+.filters-btn:focus {
+    background-color: #404BBF;
+    
+    color: #ffffff;
+}
+:root {
+    --title-color: #2e2f42;
+    
+}
+
+.projects-title {
+    font-weight: 500;
+
+    font-size: 20px;
+  
+    line-height: 1.2;
+  
+    letter-spacing: 0.02em;
+   
+    color: var(--title-color);
+    
+}
+
+.projects-type {
+    line-height: 1.5;
+   
+    letter-spacing: 0.02em;
+   
 }
