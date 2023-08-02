@@ -29,7 +29,7 @@ body {
     --main-color: #4d5ae5; 
 }
 .logo {
-    color: var(--main-color);
+    color: var(--logo-color);
 
 }
 .link {
@@ -42,3 +42,72 @@ body {
    
 }
 
+:root {
+    --link-color: #2e2f42;
+    --link-hover-color: #404bbf;
+    --link-focus-color: #404bbf;
+}
+
+
+.list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.list li {
+    padding: 5px 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.list li:last-child {
+    border-bottom: none;
+}
+
+.list li:first-child a {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--link-color);
+ 
+}
+.link:hover {
+    color: var(--link-hover-color);
+    
+}
+.link:focus {
+    color: var(--link-focus-color);
+}
+
+.link-address {
+    font-style: normal;
+    
+}
+
+
+:root {
+    --contact-link-color: #434455;
+
+}
+
+
+.contacts {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--contact-link-color);
+   
+}
+:root {
+    --link-hover-color: #404bbf;
+    --link-focus-color: #404bbf;
+}
+
+.link:hover {
+    color: var(--link-hover-color);
+}
+
+.link:focus {
+    color: var(--link-focus-color);
+    
+}
